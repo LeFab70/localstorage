@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Révisions JS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="formulaire">
+        <label for="nom">Votre tâche:</label>
+        <input
+          type="text"
+          id="nom"
+          placeholder="Précisez votre tâche"
+          required
+        />
+        <label for="age">Nombre de jours d'application</label>
+        <input type="number" id="age" placeholder="Nombre de jours" required />
+        <button id="bouton">valider</button>
+        <div class="liste">
+          <table class="tableliste">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Tâches</th>
+                <th>Editer</th>
+                <th>Supprimer</th>
+                <th>Valider</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+      <div class="bilan"></div>
+    </div>
+
+    <script src="./app.js"></script>
+    <!-- <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script> -->
+  </body>
+</html>

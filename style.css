@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  overflow: hidden;
+}
+.container {
+  /* display: flex;
+  /* align-items: center; */
+  /*justify-content: center; */
+  background-color: rgba(214, 116, 24, 0.37);
+  min-height: 100vh;
+  margin-top: 5%;
+}
+.bilan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formulaire {
+  margin: 1rem;
+}
+.formulaire input {
+  margin: 14px;
+  border-radius: 5px;
+  height: 30px;
+}
+#bouton {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.616);
+  color: aliceblue;
+  cursor: pointer;
+}
+.liste {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 1rem;
+}
+.tableliste,
+.tableliste td,
+.tableliste th {
+  border: 2px solid rgba(46, 7, 7, 0.295);
+  padding-left: 5px;
+}
+.tableliste {
+  width: 100%;
+  /*comment ajuster juste la taille dune seule colonne en particulier?*/
+}
+.btndel,
+.btnedit {
+  border-radius: 5px;
+  height: 30px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.616);
+  color: aliceblue;
+  margin: 0 30px;
+  padding-bottom: 30px;
+  font-weight: 700;
+
+  /*comment centrer le bouton dans la cellule*/
+}
+svg {
+  padding-top: 5px;
+  fill: beige;
+  width: 25px;
+  height: 25px;
+}
+.btncheck {
+  border-radius: 10px;
+  height: 10px;
+  width: 50px;
+}
